@@ -1,0 +1,59 @@
+h2{
+    color: rgb(206, 78, 231);
+}
+
+@media(max-width: 600px){
+          h2 {
+            color: rgb(70, 206, 183);
+          }
+}
+
+.navigation{
+
+    background-color: skyblue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navs{
+    color:rgb(167, 79, 207);
+}
+
+.menu-item{
+    display: flex;
+    gap: 90px;
+}
+
+.banner{
+    background-color: pink;
+    background-image: radial-gradient(rgb(156, 38, 211), pink);
+    justify-content: center;
+    height: 82vh;
+    width: 100%;
+}
+
+.Brother{
+    width: 80%;
+    height: 100%;
+    margin: 0px auto;
+    display: flex;
+    gap: 10px;
+    background-color: aquamarine;
+    background-image: radial-gradient(rgb(156, 38, 211), pink);
+    justify-content: center;
+}
+
+
+.Button{
+    height: fit-content;
+    width: fit-content;
+    background-color: #04d2c8;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+
+/*  */
