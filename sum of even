@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int BIPIN(int b);
+    
+// main function
+int main(){
+    int q;
+    printf("Enter the total number of even number whose sum you wish:   ");
+    scanf("%d",&q);
+ 
+int s;
+s = BIPIN(q);
+printf("the sum of top 10 even number is: %d", s);
+
+
+return 0;
+	
+}
+
+// additional function
+int BIPIN(int b)
+{
+     int i,m=0, sum;
+
+ sum=0;
+ 
+ 
+ //
+ for (i=0; i<(b*2+1); i++)
+ {
+ int c= i%2;
+ 
+ 	if(c==0 & m<=b)
+ 	{
+ 		sum= sum+i;
+		 m++;  
+	 }
+ }
+	 return sum;
+}
