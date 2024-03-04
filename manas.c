@@ -26,12 +26,15 @@ int main(){
 	for(i=0;i<2;i++){
 			int k=0;
 		for(j=0;j<2;j++){
+		    mul[i][j] = 0;
+		    for(k=0; k<2; k++){
 		
-		mul[i][j]= a[i][j]*b[i][k]+a[i][k]*b[1+i][k+1];
-		k++;
+		mul[i][j] += a[i][k]*b[k][j];
+		}
 		}
 
 }
+	// printing statement
 
 for(i=0;i<2;i++)    
 {    
@@ -43,4 +46,3 @@ printf("\n");
 }    
 return 0;  
 }  
-
